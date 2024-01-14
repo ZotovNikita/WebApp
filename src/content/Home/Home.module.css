@@ -46,6 +46,91 @@
     margin-top: 40px;
 }
 
+#servicesTitle {
+    width: 100%;
+    margin-top: 192px;
+    margin-bottom: 33px;
+}
+
+.TitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Title {
+    color: var(--primary-black);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+
+@media (max-width: 768px) {
+    .Title {
+        font-size: 25px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+}
+
+.Rec {
+    background-color: var(--primary-black);
+    height: 2px;
+    width: 56px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .Rec {
+        width: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Rec {
+        width: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Rec {
+        width: 27px;
+    }
+}
+
+#servicesDescription {
+    display: flex;
+    width: 66%;
+    padding: 0% 17%;
+    color: var(--primary-gray);
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#servicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 34px;
+    column-gap: 37px;
+    margin-top: 80px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+#servicesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+}
+
 @media (max-width: 1200px) {
     #newBanner1 {
         width: 85%;
@@ -118,5 +203,170 @@
 
     #newBanner3 button{
         margin-top: 12px;
+    }
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 18px;
+        margin-top: 50px;
+    }
+
+    #servicesTitle {
+        margin-top: 90px;
+        margin-bottom: 33px;
+    }
+
+    #servicesDescription {
+        width: 75%;
+        padding: 0% 12.5%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    #banner1 {
+        width: 95%;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 45px;
+    }
+
+    #banner1 img {
+        width: 45.82%;
+    }
+
+    #banner2 {
+        width: 95%;
+        margin-left: 1.5%;
+        margin-right: 3.5%;
+        margin-top: 66px;
+    }
+
+    #banner2 img {
+        width: 45%;
+    }
+    
+
+    #banner2 button {
+        margin-top: 21px;
+    }
+
+    #banner3 {
+        width: 95%;
+        margin-left: 3.66%;
+        margin-right: 2.34%;
+        margin-top: 69px;
+    }
+
+    #banner3 img {
+        width: 48.5%;
+    }
+
+    #banner3 button{
+        margin-top: 12px;
+    }
+
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 14px;
+        column-gap: 10px;
+        margin-top: 40px;
+    }
+
+    #servicesDescription {
+        width: 80%;
+        padding: 0% 10%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 32px;
+    }
+}
+
+.outlinedButton, .fillButton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: flex;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Mulish';
+    transition: 0.7s;
+}
+
+.icon {
+    transform: rotate(90deg);
+    margin-left: 8.79px;
+    max-width: 15.434px;
+    height: 9.821px;
+}
+
+.outlinedButton {
+    border: 1.4px solid var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.fillButton {
+    color: var(--primary-white);
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+.outlinedButton:hover {
+    transition: 0.7s;
+    fill: var(--midnight-black);
+    border: 1.4px solid var(--midnight-black);
+    color: var(--midnight-black);
+}
+
+.fillButton:hover {
+    transition: 0.7s;
+    fill: var(--midnight-black);
+    background-color: var(--midnight-black);
+}
+
+.fillButton:active, .outlinedButton:active {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+    .outlinedButton, .fillButton {
+        width: 150px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .icon {
+        margin-left: 6.59px;
+        max-width: 11.58px;
+        height: 7.37px;
+    }
+}
+
+@media (max-width: 480px) {
+    .outlinedButton, .fillButton {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
     }
 }
