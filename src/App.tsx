@@ -1,5 +1,6 @@
 import { Routes, Route, Outlet} from "react-router-dom";
 import Header from "./components/Header/Header";
+import Home from "./content/Home/Home";
 import Anons from "./fake_data/Announcement"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Outlet />
           </>
         }>
+          <Route index element={<Home />} />
           <Route path="find-doctor" element={<Anons />}/>
           <Route path="apps" element={<Anons />}/>
           <Route path="testimonials" element={<Anons />}/>
