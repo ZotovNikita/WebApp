@@ -4,6 +4,7 @@ import HomeStyle from './Home.module.css';
 import ServiceCardStyle from '../../components/ServiceCards/ServiceCards';
 import articles from '../../fake_data/Articles';
 import ArticleCard from '../../components/ArticleCard/ArticleCard';
+import Footer from '../../components/Footer/Footer';
 
 function Home() {
     return(
@@ -103,6 +104,8 @@ function Home() {
           {appStrings.viewAll}
         </button>
         </div>
+
+        <Footer logoText='HealthCare'/>
       </>
     );
   }
