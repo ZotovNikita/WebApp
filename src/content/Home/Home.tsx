@@ -68,7 +68,7 @@ function Home() {
           <Banner bannerTitle={appStrings.bannerTitle2} 
           bannerText={appStrings.bannerText2} 
           buttonLabel={appStrings.bannerButton2} 
-          bannerImage={appStrings.bannerImage3}  
+          bannerImage={appStrings.bannerImage2}  
           isMain={false} 
           isReversedLayout={true} 
           isFeel={false}/>
