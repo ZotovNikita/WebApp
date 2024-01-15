@@ -37,5 +37,13 @@ export const appStrings = {
     SCIcon6: "src/assets/images/serviceCards/tracking.png",
     //articles cards
     articleTitle: "Check out our latest article",
-    viewAll: "View all"
+    viewAll: "View all",
+    //slider
+    Review: "What our customer are saying",
+    arrow_left: "/src/assets/images/slider/arrow_left.png",
+    arrow_right: "/src/assets/images/slider/arrow_right.png",
+    //decorations
+    dec2: "/src/assets/images/decorations/dec2.png",
+    dec1: "/src/assets/images/decorations/dec1.png",
+    
 }

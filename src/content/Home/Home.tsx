@@ -5,6 +5,7 @@ import ServiceCardStyle from '../../components/ServiceCards/ServiceCards';
 import articles from '../../fake_data/Articles';
 import ArticleCard from '../../components/ArticleCard/ArticleCard';
 import Footer from '../../components/Footer/Footer';
+import Slider from '../../components/Slider/Slider';
 
 function Home() {
     return(
@@ -83,6 +84,7 @@ function Home() {
           isFeel={false}/>
         </div>
 
+        <Slider/>
      
         <div id={HomeStyle.servicesTitle}>
           <div className={HomeStyle.TitleContainer}>
@@ -94,7 +96,7 @@ function Home() {
         </div>
         
         <section id={HomeStyle.articlesContainer}>
-          {articles.map((item, index) => {
+          {articles.map((item, _) => {
               return ArticleCard(item)
           })}
         </section>
