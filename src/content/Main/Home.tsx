@@ -2,6 +2,8 @@ import { appStrings } from '../strings';
 import Banner from '../../components/Banners/Banner';
 import HomeStyle from './Home.module.css';
 import ServiceCardStyle from '../../components/ServiceCards/ServiceCards';
+import articles from '../../fake_data/Articles';
+import ArticleCard from '../../components/ArticleCard/ArticleCard';
 
 function Home() {
     return(
@@ -59,6 +61,7 @@ function Home() {
             {appStrings.bannerButton2}
           </button>
         </div>
+
         <div id={HomeStyle.newBanner2}>
           <Banner bannerTitle={appStrings.bannerTitle2} 
           bannerText={appStrings.bannerText2} 
@@ -77,6 +80,28 @@ function Home() {
           isMain={false} 
           isReversedLayout={false} 
           isFeel={false}/>
+        </div>
+
+     
+        <div id={HomeStyle.servicesTitle}>
+          <div className={HomeStyle.TitleContainer}>
+              <div className={HomeStyle.Title}> 
+                  {appStrings.articleTitle} 
+              </div>
+              <div className={HomeStyle.Rec}/>
+          </div>
+        </div>
+        
+        <section id={HomeStyle.articlesContainer}>
+          {articles.map((item, index) => {
+              return ArticleCard(item)
+          })}
+        </section>
+        
+        <div id={HomeStyle.servicesButtonContainer}>
+        <button className={HomeStyle.outlinedButton}>
+          {appStrings.viewAll}
+        </button>
         </div>
       </>
     );

@@ -1,6 +1,6 @@
 import { Routes, Route, Outlet} from "react-router-dom";
 import Header from "./components/Header/Header";
-import Home from "./content/Home/Home";
+import Home from "./content/Main/Home";
 import Anons from "./fake_data/Announcement"
 
 function App() {

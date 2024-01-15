@@ -35,4 +35,7 @@ export const appStrings = {
     SCTitle6: "Tracking",
     SCDescription6: "Track and save your medical history and health data ",
     SCIcon6: "src/assets/images/serviceCards/tracking.png",
+    //articles cards
+    articleTitle: "Check out our latest article",
+    viewAll: "View all"
 }
