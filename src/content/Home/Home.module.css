@@ -1,0 +1,431 @@
+#newBanner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77.93%;
+    margin-left: 11.88%;
+    margin-right: 10.19%;
+    margin-top: 84px;
+}
+
+#newBanner1 img {
+    width: 55.82%;
+}
+
+#newBanner2 {
+    display: flex;
+    align-items: center;
+    width: 77.62%;
+    margin-left: 8.44%;
+    margin-right: 13.94%;
+    margin-top: 220px;
+}
+
+#newBanner2 img {
+    width: 52.125%;
+}
+
+#newBanner2 button {
+    margin-top: 70px;
+}
+
+#newBanner3 {
+    align-items: center;
+    display: flex;
+    width: 72.25%;
+    margin-left: 17.5%;
+    margin-right: 10.25%;
+    margin-top: 229px;
+}
+
+#newBanner3 img {
+    width: 57.5%;
+}
+
+#newBanner3 button {
+    margin-top: 40px;
+}
+
+#servicesTitle {
+    width: 100%;
+    margin-top: 192px;
+    margin-bottom: 33px;
+}
+
+#articlesTitle {
+    width: 100%;
+    margin-top: 227px;
+    margin-bottom: 79px;
+}
+
+#articlesContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 34px;
+    row-gap: 25px;
+}
+
+#articlesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+    margin-bottom: 200px;
+}
+
+.TitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Title {
+    color: var(--primary-black);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+
+@media (max-width: 768px) {
+    .Title {
+        font-size: 25px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+}
+
+.Rec {
+    background-color: var(--primary-black);
+    height: 2px;
+    width: 56px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .Rec {
+        width: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Rec {
+        width: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Rec {
+        width: 27px;
+    }
+}
+
+#servicesDescription {
+    display: flex;
+    width: 66%;
+    padding: 0% 17%;
+    color: var(--primary-gray);
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#servicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 34px;
+    column-gap: 37px;
+    margin-top: 80px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+#servicesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+@media (max-width: 1200px) {
+    #newBanner1 {
+        width: 85%;
+        margin-top: 63px;
+        margin-left: 8%;
+        margin-right: 7%;
+    }
+
+    #newBanner2 {
+        margin-top: 165px;
+        width: 85%;
+        margin-left: 6%;
+        margin-right: 9%;
+    }
+
+    #newBanner2 button {
+        margin-top: 52.5px;
+    }
+
+    #newBanner3 {
+        width: 80%;
+        margin-left: 13%;
+        margin-right: 7%;
+        margin-top: 172px;
+    }
+
+    #newBanner3 button{
+        margin-top: 30px;
+    }
+    
+}
+
+
+
+@media (max-width: 768px) {
+    #newBanner1 {
+        margin-top: 40px;
+    }
+
+    #newBanner2 {
+        margin-top: 106px;
+    }
+
+    #newBanner2 button {
+        margin-top: 34px;
+    }
+
+    #newBanner3 {
+        margin-top: 110px;
+    }
+
+    #newBanner3 button{
+        margin-top: 19px;
+    }
+}
+
+@media (max-width: 480px) {
+    #newBanner1 {
+        margin-top: 25px;
+    }
+
+    #newBanner2 {
+        margin-top: 66px;
+    }
+
+    #newBanner2 button {
+        margin-top: 21px;
+    }
+
+    #newBanner3 {
+        margin-top: 69px;
+    }
+
+    #newBanner3 button{
+        margin-top: 12px;
+    }
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 18px;
+        margin-top: 50px;
+    }
+
+    #servicesTitle {
+        margin-top: 90px;
+        margin-bottom: 33px;
+    }
+
+    #servicesDescription {
+        width: 75%;
+        padding: 0% 12.5%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 50px;
+    }
+
+    #articlesTitle {
+        margin-top: 127px;
+        margin-bottom: 45px;
+    }
+    
+    #articlesContainer {
+        column-gap: 24px;
+        row-gap: 20px;
+    }
+    
+    #articlesButtonContainer {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #banner1 {
+        width: 95%;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 45px;
+    }
+
+    #banner1 img {
+        width: 45.82%;
+    }
+
+    #banner2 {
+        width: 95%;
+        margin-left: 1.5%;
+        margin-right: 3.5%;
+        margin-top: 66px;
+    }
+
+    #banner2 img {
+        width: 45%;
+    }
+    
+
+    #banner2 button {
+        margin-top: 21px;
+    }
+
+    #banner3 {
+        width: 95%;
+        margin-left: 3.66%;
+        margin-right: 2.34%;
+        margin-top: 69px;
+    }
+
+    #banner3 img {
+        width: 48.5%;
+    }
+
+    #banner3 button{
+        margin-top: 12px;
+    }
+
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 14px;
+        column-gap: 10px;
+        margin-top: 40px;
+    }
+
+    #servicesDescription {
+        width: 80%;
+        padding: 0% 10%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 32px;
+    }
+
+    
+    #articlesTitle {
+        margin-top: 80px;
+        margin-bottom: 37px;
+    }
+    
+    #articlesContainer {
+        justify-content: left;
+        column-gap: 20px;
+        row-gap: 16px;
+    }
+    
+    #articlesButtonContainer {
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+
+}
+
+.outlinedButton, .fillButton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: flex;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Mulish';
+    transition: 0.7s;
+}
+
+.icon {
+    transform: rotate(90deg);
+    margin-left: 8.79px;
+    max-width: 15.434px;
+    height: 9.821px;
+}
+
+.outlinedButton {
+    border: 1.4px solid var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.fillButton {
+    color: var(--primary-white);
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+.outlinedButton:hover {
+    transition: 0.7s;
+    fill: var(--midnight-black);
+    border: 1.4px solid var(--midnight-black);
+    color: var(--midnight-black);
+}
+
+.fillButton:hover {
+    transition: 0.7s;
+    fill: var(--midnight-black);
+    background-color: var(--midnight-black);
+}
+
+.fillButton:active, .outlinedButton:active {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+    .outlinedButton, .fillButton {
+        width: 150px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .icon {
+        margin-left: 6.59px;
+        max-width: 11.58px;
+        height: 7.37px;
+    }
+}
+
+@media (max-width: 480px) {
+    .outlinedButton, .fillButton {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
